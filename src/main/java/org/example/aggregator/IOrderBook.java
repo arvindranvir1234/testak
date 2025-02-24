@@ -4,7 +4,6 @@ import java.util.List;
 
 public interface IOrderBook {
 
-    //TODO define and implement
 
     // ccy pair
     // aggregated bid sizes and prices

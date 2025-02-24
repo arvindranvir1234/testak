@@ -2,7 +2,6 @@ package org.example.aggregator;
 
 public interface IPriceUpdate {
 
-    //TODO define and implement
 
     // currency pair
     // source
