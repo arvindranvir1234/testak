@@ -1,5 +1,4 @@
 package org.example.aggregator;
-
 public interface IMarketAggregator {
 
     /**
@@ -32,6 +31,4 @@ public interface IMarketAggregator {
      * @return should return Double.NaN if not enough liquidity in the market
      */
     double getLatestPrice(String ccyPair, double volume, Side side);
-
-
 }

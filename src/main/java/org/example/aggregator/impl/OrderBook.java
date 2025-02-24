@@ -8,6 +8,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class OrderBook implements IOrderBook {
+
+    //no implementation
+    private static final int MAX_ORDER_BOOK_DEPTH = 10;
+
     private final String currencyPair;
     private final List<Order> bids = new ArrayList<>();
     private final List<Order> asks = new ArrayList<>();

@@ -49,6 +49,7 @@ class MarketAggregatorImplTest {
         aggregator.processPriceUpdate(new PriceUpdate("EUR/USD", Side.BID, 1.10, 1_000_000, "SourceA"));
         aggregator.processPriceUpdate(new PriceUpdate("GBP/USD", Side.OFFER, 1.30, 1_000_000, "SourceA"));
 
+
         IOrderBook eurOrderBook = aggregator.getLatestAggregatedOrderBookForCcyPair("EUR/USD");
         IOrderBook gbpOrderBook = aggregator.getLatestAggregatedOrderBookForCcyPair("GBP/USD");
 
