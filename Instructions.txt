@@ -1,0 +1,11 @@
+Implement the IMarketAggregator interface and provide unit tests, which prove that the implementation is correct.
+IMarketAggregator interface and implementation require defining IOrderBook and IPriceUpdate and implementing them.
+Please, be mindful of both correctness and performance in your implementation.
+
+Note: Assume a single-threaded environment and sweepable market order books
+
+At the very least, you should have unit testing where:
+1. There's been market updates from at least three different sources
+2. There's been market updates for different currency pairs from the same source
+3. There's been market updates for same currency pair but different sources, which contain same prices for some levels on the same side
+4. There's been a market update, which causes the aggregated book to become crosses
